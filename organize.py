@@ -14,6 +14,7 @@ def main():
 
     # Create Pandas DataFrame Objects to store our data
     data = pd.read_csv('fixedData.csv')
+    data.dropna(inplace = True)
     print(data)
 
     # Use that object to create our new in-memory database
