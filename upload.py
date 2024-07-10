@@ -13,10 +13,10 @@ import oci
 # Generation page and create a new key, the subsequent popup will provide you with most of this information
 # below. I personally found this much easier than digging through the website for the information.
 
-tenancy = "ocid1.tenancy.oc1..aaaaaaaagyhod5jyjj4y4xnbngb7cm7wvq7n4lalq5wi3i5g3xz5w5it7kdq" # Replace REDACTED with correct information
-user = "ocid1.user.oc1..aaaaaaaaillyid4hota7d3n3btduul74ksyr7afnwsi36f6gydo7z5vbmhoa"       # ''
-key_path = "C:/Users/Nick/.oci/philadelphia_nick@yahoo.com_2024-07-10T01_12_55.765Z.pem"    # ''
-fingerprint = "ac:20:f6:b9:e0:fc:b0:8c:86:e7:44:e7:a1:63:74:02"                             # ''    
+tenancy = "REDACTED"       # Replace REDACTED with correct information
+user = "REDACTED"          # ''
+key_path = "REDACTED"      # ''
+fingerprint = "REDACTED"   # ''    
 
 # Build the dictionary
 config = {
